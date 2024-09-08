@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useDrag, useDrop } from "react-dnd";
 import { toast } from "react-hot-toast";
 
-const  ListTasks = ({tasks,setTasks}) => {
+const ListTasks = ({tasks,setTasks}) => {
 
     const[todos,setTodos]=useState([]);
     const[doings,setDoings]=useState([]);

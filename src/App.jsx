@@ -26,6 +26,7 @@ function App() {
         <ListTask tasks={tasks} setTasks={setTasks} />
       </div>
     </DndProvider> 
+    
 );
 }
 
